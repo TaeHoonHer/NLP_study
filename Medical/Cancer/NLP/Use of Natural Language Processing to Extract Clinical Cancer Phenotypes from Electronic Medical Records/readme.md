@@ -1,6 +1,13 @@
 ## Thesis Study
-전자 의료 기록을 Omics 데이터와 연관시키기 위한 모델은 암 환자의 표현형 정보(Phenotype information)(2)의 중요한 원천인 임상 텍스트 대부분을 무시한다. 임상 텍스트에서 암 표현형 데이터을 추출하기 위해 자연어처리(NLP) 방법을 사용한다. 
-- Phenotype : 
+
+전자 의료 기록을 Omics 데이터와 연관시키기 위한 모델은 암 환자의 표현형 정보(Phenotype information)(2)의 중요한 원천인 임상 텍스트 대부분을 무시한다. 임상 텍스트에서 암 표현형 데이터을 추출하기 위해 자연어처리(NLP) 방법을 사용한다. 여기서는 PubMed(4)에 수록된 출판물과 NLP 및 기계 학습 컨퍼런스 진행을 기반으로 종양학과 관련된 NLP 및 정보 추출 방법의 발전을 검토한다
+
+---
+종양학에서 임상 치료와 연구 과정에서 생성된 데이터는 나날이 증가하고 있다. 지난 10년동안 전자 의료 기록의 사용량을 보면 꾸준히 증가하고 있는 추세임을 확인할 수 있다.
+
+NCI(6), 역학 및 최종 결과 프로그램, 국립 암 데이터베이스, 암 게놈 지도책(TCGA)(5) 및 인간 종양 지도책(7)과 같은 대규모 데이터베이스는 임상 및 번역 종양 연구에 점점 더 중요한 수단이 되고 있다. 그러나 중요한 뉘앙스 표현형 데이터(8)는 임상 자유 텍스트에 고정되어 있으며, 이는 임상 프레젠테이션, 제공자 인상, 절차 세부 정보 및 관리 의사 결정을 문서화하고 전달하는 주요 형태로 남아 있다. EMR 및 -omics 데이터의 확산에도 불구하고, 중요하고 정확한 표현형 정보는 종종 이러한 임상 문서에만 자세히 설명된다. 언어를 계산 가능한 표현으로 변환하는 것으로 광범위하게 정의되는 자연어 처리는 임상 텍스트 내에서 미묘한 데이터를 대규모로 추출하는 데 핵심적이다
+
+---
 
 What is Omics medical data?
 - Omics medical data refers to a large amount of data generated from various high-throughput techniques used in biomedical research, such as genomics, transcriptomics, proteomics, metabolomics, and epigenomics. These techniques allow researchers to study the molecular mechanisms underlying diseases and to identify potential biomarkers and therapeutic targets.
@@ -25,3 +32,22 @@ What is Omics medical data?
 같은 정보들을 말하고, 이러한 정보들은 모두 개체의 페노타입 정보, 의학 연구에서 개인 맞춤형 치료를 개발하는데 중요한 역할을 한다. 유전자형과 페노타입(3) 정보를 결합, 질병 예측 및 진단, 약물 개발에 사용이 된다
 
 3) Phenotype : 개체가 나타내는 모든 회부적 형질과 생물학적 특성을 의미. 개체의 유전자형과 상호작용하여 나타나는 개체의 생물학적 특성을 말한다.
+
+4) PubMed : 생명의학, 생물학, 바이오메디컷, 보건 등 다양한 분야의 문헌을 검색할 수 있는 검색 엔진.
+
+5) 암 게놈 지도책이란? : Cancer Genome Atlas(TCGA)는 암 발생에 영향을 미치는 유전자 변이 및 암 세포의 유전체 데이터를 수집, 분석하고 공유하는 의료 프로젝트이다
+
+6) NCI : National Cancer Institute(국립암연구소)의 줄임말이다
+7) 인간 종양 지도책(Human Cancer Atlas) : 전 세계 암 연구자들이 함께 참여해 모든 종양에 대한 세부적인 분석 결과를 수집, 연결 및 공유하는 대규모 프로젝트이다. 종양 내부의 세포 유형과 그들의 상호작용, 세포 내 분자 신호체계, 세포 외 기질 등 다양한 영역에서 유전자 변이, 엑솜, 유전자 발현, 단백질 발현, 대사물질 및 생체 마커 등을 분석하여 인간 종양의 정밀한 분석을 시도하고 있다.
+8) nuance phenotype(뉘앙스 표현형) 데이터 in 종양학 : 종양의 특성을 서로 다른 그룹으로 분류, 특정 기능을 하는 유전자 변이를 연관시키는 등 다양한 연구에서 사용되는 데이터이다.
+    - 종류
+        - 종양의 크기
+        - 모양
+        - 색상
+같은 기본적인 형태적 특징부터
+    - 세부적 특징
+        - 세포 간 상호작용
+        - 세포 내 분자 상호작용
+        - 대사 물질
+        - 생체 마커
+와 같은 세부적인 특징을 분석해 얻어진다
