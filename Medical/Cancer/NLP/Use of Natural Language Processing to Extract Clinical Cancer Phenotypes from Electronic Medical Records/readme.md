@@ -15,10 +15,28 @@ EMR(11) 및 -omics 데이터의 확산에도 불구하고, 중요하고 정확�
 
 임상 또는 건강관리 텍스트의 분석을 도와주는 Clinical NLP(12)는 수십 년 전부터 사용이 되고 있다. 하지만, 최근 몇 년 동안 계산 능력과 알고리즘이 충분히 발전하여 종양학적 조사를 확대하는 데 어마어마한 능력을 보여주었다.
 
-CNLP의 기사중에 이런 기사가 있다.
+CNLP의 기사중에 Clinical Natural Language Processing in the Age of Big Data and Deep Learning이라는 기사가 있다. CNLP에 대한 최신 연구 동향과 발전 가능성에 대한 리뷰를 작성한 기사인데, 해당 기사에서는 다양한 데이터 소스에서 정보 추출 및 분석을 위한 NLP 기술을 소개하고, Deep Learning 기술의 적용 가능성 또한 다루고 있다
 
+해당 기사에서는 CLinical NLP 분야에서 가장 많이 사용되는 정보 추출 방법 중 Named Entity Recognition(NER)과 같은 주요 기술을 설명하고 있다. 또한, Electronic Health Record(EHR)과 같은 대규모 병원 데이터를 처리하는 방법, CLinical NLP 기술을 활용해 의료 연구 수행 방법 또한 설명을 하고 있다.
+
+기사에서 다루는 내용 중, DL(Deep Learning)기술을 CNLP 분야에 적용하는 방법이 있다. DL을 사용하면 높은 정확도로 정보를 추출할 수 있고, 자연어 처리를 함에 있어 매우 효과적인 방법이라고 할 수 있다.
 
 ---
+
+2010년대 중반은 인공지능과 NLP에 대한 폭발적인 관심과 함께 양질의, 수많은 디지털화가 된 텍스트 데이터가 있었고, 하드웨어 발전으로 어마어마한 기술적 발전이 이루어졌다. 그 후, 우리는  암에 대한 cNLP 방법의 주요 최근 개발을 검토하기 시작했다. 
+
+---
+
+### Major NLP Algorithmic Advances
+
+3년간 NLP에 대한 다양한 방법론의 개발과 함께 딥러닝을 응용한 다양한 사례를 보여주었다. DL 기술 자체는 1980년대에 처음 고안이 되었지만, 
+- 대규모 디지털 텍스트 코퍼스
+- 데이터 집약 알고리즘
+- 그래픽 처리 장치를 활용한 대규모 병렬 컴퓨팅 
+
+이 3가지가 수렴이 될 때가지는 정상적으로 작동이 되지가 않았다.
+
+다양한 산업군에서 DL은 만능, 최첨단 인공지능으로 인식이 되고는 한다. 
 
 What is Omics medical data?
 - Omics medical data refers to a large amount of data generated from various high-throughput techniques used in biomedical research, such as genomics, transcriptomics, proteomics, metabolomics, and epigenomics. These techniques allow researchers to study the molecular mechanisms underlying diseases and to identify potential biomarkers and therapeutic targets.
