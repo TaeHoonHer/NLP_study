@@ -26,4 +26,4 @@ NPLM은 backpropagation 알고리즘을 사용해 학습되며, 학습 과정에
 ### 논문의 기여
 - 모든 단어를 고려한 distributed representation을 제안함으로써 자연어 처리 분야에서의 성능을 크게 향상시켰다
 - NCE를 사용하여 학습 속도를 크게 향상시켰습니다.
-- 해당 논문 출간 이후, 자연어 처리 분야에서도 distributed representation을 사용하는 뉴럴 네트워크 모델이 많이 연구되게 되었
+- 해당 논문 출간 이후, 자연어 처리 분야에서도 distributed representation을 사용하는 뉴럴 네트워크 모델이 많이 연구되게 되었다
